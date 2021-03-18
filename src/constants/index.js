@@ -4,7 +4,7 @@ config()
 
 module.exports = {
   MONGO_URI: process.env.MONGO_URI,
-  PORT: process.env.APP_PORT || process.env.PORT, //in deployment to heroku port will be availiable via PORT
+  PORT: process.env.APP_PORT || process.env.PORT,
   SERVER_URL: process.env.SERVER_URL,
   CLIENT_URL: process.env.CLIENT_URL,
 }
